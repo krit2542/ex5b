@@ -59,7 +59,7 @@
 					t1 = t * (4/5);
 					u1 = "Kelvin";
 			   }
-			   return alert("Temperature is "+t1+" in "+u1);
+			   return document.getElementById("result").innerHTML=("Temperature is "+t1+" in "+u1);
 	}
 	
 	    
@@ -74,7 +74,7 @@
 			   
 			   var calculate = calculater(t,u);
 			   
-			   return alert("Temperature is "+calculate.t1+" in "+calculate.u1);
+			   
 			});
 		});
 	</script>
